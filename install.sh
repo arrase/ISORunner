@@ -17,4 +17,4 @@ echo "MOUNT_POINT=/media/isorunner" | sudo tee --append $ETC/isorunner.conf
 grep "/usr/bin/isorunner" /etc/rc.local || (awk '/exit\ 0/ && c == 0 {c = 0; print "\n/usr/bin/isorunner\n"}; {print}' /etc/rc.local | sudo tee /etc/rc.local)
 
 sudo cp bin/isorunner.sh /usr/bin/isorunner
-sudo chmod 777 isorunner
+sudo chmod 777 /usr/bin/isorunner

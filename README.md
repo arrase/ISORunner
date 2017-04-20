@@ -1,2 +1,2 @@
 # ISORunner
-A CD Rom emulator build over Raspberry Pi Zero
+An easy way for install iso images, emulate CD Rom over Raspberry Pi Zero
